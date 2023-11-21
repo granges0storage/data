@@ -1,0 +1,7 @@
+def isPalindrome(String word) {
+    word == word.reverse()
+}
+
+def words = ["level", "deed", "groovy", "radar"]
+def palindromes = words.findAll { isPalindrome(it) }
+println(palindromes)
